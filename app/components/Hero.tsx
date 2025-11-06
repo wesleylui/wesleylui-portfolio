@@ -1,5 +1,6 @@
 // Hero.tsx
 import Image from "next/image";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -13,6 +14,26 @@ const Hero = () => {
           </p>
           <div className="mt-8 text-gray-500">
             I&apos;m passionate about full-stack.
+          </div>
+
+          {/* Social Icons */}
+          <div className="flex gap-4 mt-6">
+            <a
+              href="https://www.linkedin.com/in/wesleylui/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-blue-500 transition-colors"
+            >
+              <FaLinkedin size={32} />
+            </a>
+            <a
+              href="https://github.com/wesleylui"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              <FaGithub size={32} />
+            </a>
           </div>
         </div>
 
