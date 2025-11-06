@@ -23,9 +23,9 @@ const experienceData = [
 
 const Experience = () => {
   return (
-    <section className="bg-gray-800 py-20 px-4" id="experience">
+    <section className="section-container py-20 px-4" id="experience">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Experience</h2>
+        <h2 className="section-heading">Experience</h2>
         <div className="grid gap-8 grid-cols-1 lg:grid-cols-2">
           {experienceData.map((experience, idx) => (
             <ExperienceCard key={idx} {...experience} />

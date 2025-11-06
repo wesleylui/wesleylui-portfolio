@@ -16,9 +16,9 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <section className="bg-gray-800 py-20 px-4" id="projects">
+    <section className="section-container py-20 px-4" id="projects">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
+        <h2 className="section-heading">Projects</h2>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
           {projectData.map((project, idx) => (
             <ProjectCard key={idx} {...project} />
