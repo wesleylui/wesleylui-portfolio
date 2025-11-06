@@ -9,6 +9,15 @@ const experienceData = [
     date: "Oct 2025 - Current",
     description: "salvation army internal tool 🛠️",
     skills: ["T3 Stack", "Drizzle", "tRPC"],
+    image: "/ctc_logo3.png",
+  },
+  {
+    organization: "Biomedical Research and Engineering Team (BMERIT)",
+    role: "Student Developer",
+    date: "Oct 2025 - Current",
+    description: "software & programmables team 🛠️",
+    skills: ["full-stack"],
+    image: "/bmerit_logo.png",
   },
 ];
 

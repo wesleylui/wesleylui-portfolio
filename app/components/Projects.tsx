@@ -16,12 +16,14 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <section className="bg-gray-800 py-20 px-4">
-      <h2 className="text-3xl font-bold mb-12 text-center">Projects</h2>
-      <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        {projectData.map((project, idx) => (
-          <ProjectCard key={idx} {...project} />
-        ))}
+    <section className="bg-gray-800 py-20 px-4" id="projects">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
+          {projectData.map((project, idx) => (
+            <ProjectCard key={idx} {...project} />
+          ))}
+        </div>
       </div>
     </section>
   );
