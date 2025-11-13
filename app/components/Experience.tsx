@@ -8,16 +8,24 @@ const experienceData = [
     role: "Student Developer",
     date: "Oct 2025 - Current",
     description: "salvation army internal tool 🛠️",
-    skills: ["T3 Stack", "Drizzle", "tRPC"],
+    skills: ["T3 Stack", "SASS", "BetterAuth", "Drizzle", "tRPC"],
     image: "/ctc_logo3.png",
   },
   {
-    organization: "Biomedical Research and Engineering Team (BMERIT)",
+    organization: "BMERIT",
     role: "Student Developer",
     date: "Oct 2025 - Current",
     description: "software & programmables team 🛠️",
-    skills: ["full-stack"],
+    skills: ["React"],
     image: "/bmerit_logo.png",
+  },
+  {
+    organization: "Schulich Ignite",
+    role: "Student Developer, Jr. VP of Communications",
+    date: "Oct 2023 - Current",
+    description: "python mentor & social media manager",
+    skills: ["python, marketing"],
+    image: "/ignite.svg",
   },
 ];
 
